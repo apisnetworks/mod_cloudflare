@@ -1,0 +1,24 @@
+From 9e65e01dbe506ef926e227ba129c493c25764235 Mon Sep 17 00:00:00 2001
+From: erictung1999 <41339955+erictung1999@users.noreply.github.com>
+Date: Fri, 9 Apr 2021 17:28:58 +0800
+Subject: [PATCH] Update with the latest IPv4 ranges
+
+Cloudflare announced the usage of new IPv4 ranges for Cloudflare infrastructure at 9 April 2021.
+---
+ mod_cloudflare.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/mod_cloudflare.c b/mod_cloudflare.c
+index 6631291..504c420 100644
+--- a/mod_cloudflare.c
++++ b/mod_cloudflare.c
+@@ -46,7 +46,8 @@ static const char* CF_DEFAULT_TRUSTED_PROXY[] = {
+   "103.21.244.0/22",
+   "103.22.200.0/22",
+   "103.31.4.0/22",
+-  "104.16.0.0/12",
++  "104.16.0.0/13",
++  "104.24.0.0/14",
+   "108.162.192.0/18",
+   "131.0.72.0/22",
+   "141.101.64.0/18",

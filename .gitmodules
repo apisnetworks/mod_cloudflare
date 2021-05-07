@@ -1,0 +1,4 @@
+[submodule "SOURCES/mod_cloudflare"]
+        branch = master
+        path = SOURCES/mod_cloudflare
+        url = https://github.com/cloudflare/mod_cloudflare.git

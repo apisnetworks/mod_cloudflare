@@ -1,5 +1,4 @@
-*.la
-*.lo
-*.o
-*.slo
-.libs/
+BUILD
+BUILDROOT
+RPMS
+SRPMS
